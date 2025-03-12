@@ -111,6 +111,20 @@
 	font-family: Verdana,Geneva,sans-serif; 
 }
 
+.article {
+	background-color: #ffffff77;
+	flex: 6;
+	
+	margin: 2px;
+	padding: 4px;
+	
+	border-radius: 13px;
+	border-style: solid;
+	border-width: medium;
+	
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
 .header {
 	font-size: 30px
 }
