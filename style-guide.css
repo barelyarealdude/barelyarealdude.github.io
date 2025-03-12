@@ -1,0 +1,121 @@
+.main {
+	display: flex;
+}
+
+.banner {
+	background-color: #55ccffcc;
+	
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	
+	margin: 2px;
+	padding: 4px;
+	
+	border-radius: 13px;
+	border-style: solid;
+	border-width: medium;
+	
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+.flex-container-border {
+	display: flex;
+	
+	margin: 2px;
+	padding: 4px;
+	
+	border-radius: 13px;
+	border-style: solid;
+	border-width: medium;
+}
+
+.flex-container-borderless {
+	flex: 1;
+	display: flex;
+}
+
+.flex-button {
+	flex: 1;
+	
+	margin: 1px;
+	padding: 2px;
+
+	border-radius: 8px;
+	border-style: solid;
+	border-width: medium; 
+}
+
+.left-list {
+	background-color: #55ffddcc;
+	
+	flex: 1;
+	
+	display: flex;
+	flex-direction: column;
+	
+	margin: 2px;
+	padding: 4px;
+	
+	border-radius: 13px;
+	border-style: solid;
+	border-width: medium;
+	
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+.nav {
+	background-color: #55ffddcc;
+	
+	display: flex;
+	flex-direction: column;
+	
+	margin: 2px;
+	padding: 4px;
+	
+	border-radius: 13px;
+	border-style: solid;
+	border-width: medium;
+	
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+.recent-column {
+	background-color: #77ff7799;
+	
+	flex: 6;
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+	margin: 2px;
+	padding: 4px;
+	
+	border-radius: 13px;
+	border-style: solid;
+	border-width: medium;
+	
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+.recent-article {
+	background-color: #77ff7799;
+	
+	margin: 2px;
+	padding: 4px;
+	
+	border-radius: 13px;
+	border-style: solid;
+	border-width: medium;
+	
+	font-family: Verdana,Geneva,sans-serif; 
+}
+
+.header {
+	font-size: 30px
+}
+
+#bg-global {
+	background-image: url(frutiger-eco-2.webp);
+	background-size: 100% 100%;
+}
