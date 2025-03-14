@@ -46,6 +46,12 @@
 	border-width: medium; 
 }
 
+.toolbar {
+	border:0;
+	overflow:hidden;
+	height:620px;
+}
+
 .left-list {
 	background-color: #55ffddcc;
 	
@@ -61,7 +67,7 @@
 	border-style: solid;
 	border-width: medium;
 	
-	font-family: Verdana,Geneva,sans-serif; 
+	font-family: Verdana,Geneva,sans-serif;
 }
 
 .nav {
