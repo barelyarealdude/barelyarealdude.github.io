@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style-guide.css">
+		<title>Template</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+	</head>
+
+	<body style="background-image:url(frutiger-eco-2.webp);">
+		<div class="main">
+			<iframe src="toolbar.html" title="Interactive Toolbar" class="toolbar"></iframe>
+			<div class="article">
+				<div class="header">Comparison -- VIC-20 vs. C64</div> <br>
+				<div class="blurb">A quick delve into the differences between the platforms.</div> <br>
+				<p>
+					The VIC-20, released in 1980 in Japan and 1981 elsewhere, was a pretty successful computer for it's time.
+					It boasted multi-color graphics, the BASIC programming language built-in, and ~3K bytes of RAM. It was a
+					steady seller, but just a couple of years later, the C64 arrived on the scene. Featuring almost 10x the amount
+					of BASIC RAM and a much bigger screen, it killed off the sales of the VIC-20. Just how different are the two
+					machines, though?
+				</p>
+				<div class="parahead">Specs</div>
+				<p>
+					Both machines are based on the 6502 microprocessor, clocked at around 1Mhz. This puts the two machines at
+					roughly the same speed. However, the C64 loses some performance due to badlines; occasionally, the video
+					chip steals a few cycles from the CPU per scanline, leading to reduced performance.
+					<br>
+					While the processor gives the C64 a slight hiccup, otherwise, it has the edge. The C64 features a 40-column
+					wide screen, the same size as the PET. However, the VIC-20 has a 22-character wide screen by default, and
+					it can only accomplish up to 27-characters. Worse, a few columns in extended column modes are lost to TV
+					overscan. Regarding the color capabilities, both systems have 16 colors. The C64 has one advantage, though;
+					all 16 colors can be used as the main text color, while the VIC-20 can only use 8 of its colors for the
+					primary text output.
+				</p>
+				<div class="parahead">Sound</div>
+				<p>
+					The VIC-20 had a relatively impressive sound chip for its time. It featured three melodic channels and one
+					noise channel, suitable for making drums. Compared to the competition, which generally didn't have sound
+					capabilities, the VIC-20 was leagues above. However, it was generally used for simple jingles and sound
+					effects.
+				</p>
+				<div class="flex-container-borderless">
+					<div class="subsection" style="flex:2;">
+						A full feature set of the SID chip includes:<br>
+						 - Three hardware sound channels which support sawtooth, pulse, triangle waves and noise<br>
+						 - Low-pass, band-pass, and high-pass filters<br>
+						 - Waveform hardsync and ring modulation (for triangle waves only)<br>
+						 - Early models (6581) had a bug which produced a click every time the master volume was adjusted
+						 -- people used this to play samples by chaining multiple clicks</br>
+					</div>
+					<p style="flex:4;">
+						The C64 stepped it up with the SID chip. Initially, it looks like a downgrade as it only features three channels,
+						compared to the VIC-20's four channel output. However, these channels have three melodic waveforms + noise.
+						The SID also features filter support along with ring modulation and waveform hardsync. By abusing the master
+						volume, sampled sound could be produced. Initially, much like the VIC-20, it was only used for jingles and
+						sound effects. Starting in 1983, simple music could be produced. By '85, composers such as Rob Hubbard were getting
+						very <a href="https://www.youtube.com/watch?v=qrQuR1LHAVI">complex music</a> which switched between instruments 
+						on the fly.
+						<br>
+						There is still a decent scene today focused on creating music for the C64. Some of it is quite impressive!
+					</p>
+					<div class="subsection" style="flex:1;">
+						Fun fact: the original design of the SID chip called for it to have 32 voices! This wasn't feasible;
+						the designers copied a working oscillator twice instead to give the chip three voices.
+					</div>
+				</div>
+				<p>
+					One other advantage of the C64 is its full bitmap display, which the VIC-20 lacks. However, by reducing the screen width
+					and double-sizing the text, it is possible to achieve a two-color bitmap display. Some games such as 
+					<a href="https://misfit.itch.io/pentagorat">Pentagorat</a> use this
+					in order to display an isometric view of the playing field. The downside, however, is that only two colors are available
+					without color-clash.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
