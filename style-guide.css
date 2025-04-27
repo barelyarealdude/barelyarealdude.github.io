@@ -163,9 +163,9 @@
 	border-width: medium;
 }
 
-#bg-global {
-	background-image: url(frutiger-eco-2.webp);
+.bg-global {
+	background-image: url(frutiger-eco-2-modified.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: fixed;
 }
