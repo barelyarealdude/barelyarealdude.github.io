@@ -141,6 +141,12 @@
 	font-style: oblique;
 }
 
+.timestamp {
+	font-size: 12px;
+	font-style: oblique;
+	color: #444444aa;
+}
+
 .parahead {
 	font-size: 18px;
 	font-weight: bold;
