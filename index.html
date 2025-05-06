@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="style-guide.css">
 		<title>Home</title>
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<script src="toolbar-toggle.js"></script>
 	</head>
 
 	<body class="bg-global">
@@ -51,7 +52,8 @@
 			</button>
 		</div>
 		<div class="main">
-			<iframe src="toolbar.html" title="Interactive Toolbar" class="toolbar"></iframe>
+			<iframe src="toolbar.html" title="Interactive Toolbar" id="toolbar"></iframe>
+			<button id="tool-btn" onclick="toggleToolbar()">On/Off</button>
 			<div class="recent-column">
 				<div class="recent-article">
 					<div class="header">Minecraft Legacy Console Edition</div>
