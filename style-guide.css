@@ -46,10 +46,11 @@
 	border-width: medium; 
 }
 
-.toolbar {
+#toolbar {
 	border:0;
 	overflow:hidden;
 	height:620px;
+	width:200px;
 }
 
 .left-list {
@@ -101,7 +102,8 @@
 	border-style: solid;
 	border-width: medium;
 	
-	font-family: Verdana,Geneva,sans-serif; 
+	font-family: Verdana,Geneva,sans-serif;
+	height: 100%;
 }
 
 .recent-article {
@@ -168,4 +170,13 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: auto;
+}
+
+#tool-btn {
+	transform: rotate(90deg);
+	height: 20px;
+	margin-top: 26px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: -26px;
 }
