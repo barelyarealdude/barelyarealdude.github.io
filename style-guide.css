@@ -16,7 +16,12 @@
 	border-style: solid;
 	border-width: medium;
 	
-	font-family: Verdana,Geneva,sans-serif; 
+	font-family: Verdana,Geneva,sans-serif;
+	
+	background-image: linear-gradient( /* chrome */
+    hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0) 50%,
+    hsla(0, 0%, 0%, 0.3) 50%, hsla(0, 0%, 100%, 0.2)
+  );
 }
 
 .flex-container-border {
