@@ -1,0 +1,200 @@
+@font-face {
+	font-family: Frutiger;
+	src: url(fonts/Frutiger.ttf);
+}
+
+@font-face {
+	font-family: Frutiger;
+	src: url(fonts/Frutiger_bold.ttf);
+	font-weight: bold;
+}
+
+#bg-global {
+	background-image: url(images/frutiger-eco-2-modified.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Frutiger, arial, monospace;
+}
+
+article {
+	display: inline-block;
+	width: fit-content;
+	min-width: 250px;
+	height: fit-content;
+	
+	flex: 0 2 auto;
+	
+	background-color: #ffffff77;
+	backdrop-filter: blur( 3px );
+	
+	border-color: #222222dd;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	background-image: 
+		radial-gradient(#00000000, #77777750),
+		linear-gradient(#ffffffc0, #ffffff07 60px, #00000000 60px),
+		conic-gradient(#ffffffa0, #ffffff60, #ffffffa0);
+}
+
+side-content {
+	display: flex;
+	flex-direction: column;
+}
+
+
+main-content {
+	display: flex;
+	flex-direction: column;
+}
+
+nav-bar {
+	display: inline-block;
+	width: fit-content;
+	min-width: 160px;
+	height: fit-content;
+	min-height: 200px;
+	
+	background-color: #18ff3b7a;
+	backdrop-filter: blur( 3px );
+	
+	border-color: #222222dd;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+
+	padding: 2px;
+	padding-right: 15px;
+	
+	margin-right: 5px;
+	
+	background-image: 
+		radial-gradient(#00000000, #00441150),
+		linear-gradient(#ffffffc0, #ffffff07 60px, #00000000 60px),
+		conic-gradient(#00ff55a0, #00ff9a60, #00ff55a0);
+}
+
+#collapse-button {
+	display: inline-block;
+	width: fit-content;
+	
+	background-color: #458af47a;
+	backdrop-filter: blur(3px);
+	
+	border-color: #222222dd;
+	border-style: dashed;
+	border-width: 3px;
+	border-radius: 10px;
+	
+	padding: 2px;
+	
+	margin-top: 2px;
+	margin-right: 5px;
+	
+	transition-duration: 0.3s;
+}
+
+subsection-1 {
+	display: block;
+	width: fit-content;
+	
+	background-color: inherit;
+	background-image: inherit;
+	border-style: inherit;
+	border-color: inherit;
+	border-width: inherit;
+	border-radius: inherit;
+	
+	padding: inherit;
+}
+
+subsection-2 {
+	display: inline-block;
+	background-color: #660e6688;
+	background-image: 
+		radial-gradient(#00000000, #44034450),
+		linear-gradient(#ffffffc0, #ffffff07 60px, #00000000 60px),
+		conic-gradient(#ff55ffa0, #ff9aff60, #ff55ffa0);
+	
+	border-color: #222222dd;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#collapse-button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #22457acc;
+}
+
+link-list {
+	display: block;
+	position: relative;
+	padding-left: 18px;
+}
+
+link-list a {
+	display: block;
+}
+
+news-div {
+	display: inline-block;
+	width: fit-content;
+	min-width: 250px;
+	height: fit-content;
+	min-height: 400px;
+	
+	background-color: #ecffb47a;
+	backdrop-filter: blur(3px);
+	
+	border-color: #222222dd;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	background-image: 
+		radial-gradient(#00000000, #00114450),
+		linear-gradient(#ffffffc0, #ffffff07 60px, #00000000 60px),
+		conic-gradient(#0055ffa0, #3222ff60, #0055ffa0);
+}
+
+body {
+	display: flex;
+}
+
+h1 {
+	font-size: 30px;
+	font-style: oblique;
+}
+
+img {
+	display: block;
+}
+
+p {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: lighter;
+	font-style: italic;
+	
+	color: #222222;
+}
+
+tag-line {
+	font-size: 20px;
+	font-style: oblique;
+}
