@@ -178,6 +178,8 @@ body {
 h1 {
 	font-size: 50px;
 	font-style: oblique;
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
 }
 
 img {
@@ -186,6 +188,8 @@ img {
 
 p {
 	font-size: 18px;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 h3 {
@@ -193,10 +197,24 @@ h3 {
 	font-weight: lighter;
 	font-style: italic;
 	
+	margin-top: 0.4em;
+	margin-bottom: 0em;
+	
 	color: #222222;
 }
 
 tag-line {
 	font-size: 28px;
 	font-style: oblique;
+}
+
+ul {
+	font-size: 14px;
+	margin-top: 0em;
+}
+
+subsection-2 p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	font-size: 16px;
 }
