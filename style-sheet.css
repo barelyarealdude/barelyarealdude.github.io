@@ -218,3 +218,18 @@ subsection-2 p {
 	margin-bottom: 0em;
 	font-size: 16px;
 }
+
+footer {
+	display: inline-block;
+	
+	background-color: #ffffff88;
+	backdrop-filter: blur(3px);
+	
+	border-color: #222222dd;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
